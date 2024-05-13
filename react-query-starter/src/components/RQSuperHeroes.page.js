@@ -1,4 +1,5 @@
 import { useQuery  } from 'react-query'
+import axios from 'axios'
 
 export const RQSuperHeroesPage = () => {
   const { isLoading, data } = useQuery('super-heros', () => {
